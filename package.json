@@ -1,8 +1,8 @@
 {
-  "name": "nest-boilerplate",
+  "name": "ebilling",
   "version": "0.0.1",
-  "description": "awesome nest js boilerplate",
-  "author": "dmutoni",
+  "description": "ebilling backend",
+  "author": "Gervais",
   "private": true,
   "license": "MIT",
   "scripts": {

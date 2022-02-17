@@ -12,7 +12,7 @@ export class Token {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ApiProperty({ example: 'Denyse' })
+  @ApiProperty({ example: 'Gervais' })
   @Column({
     type: 'varchar',
     nullable: false

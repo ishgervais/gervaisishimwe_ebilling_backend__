@@ -19,7 +19,7 @@ describe('UserService', () => {
 
   const createUserDto = new CreateUserDto();
   createUserDto.firstName = 'Mutoni';
-  createUserDto.lastName = 'Denyse';
+  createUserDto.lastName = 'gervais';
   createUserDto.phone_number = '+254712345678';
   createUserDto.location = 'nyagatare';
   createUserDto.gender = 'female';
