@@ -18,14 +18,14 @@ export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @ApiProperty({ example: 'Denyse' })
+  @ApiProperty({ example: 'Gervais' })
   @Column({
     type: 'varchar',
     nullable: false
   })
   firstName: string;
 
-  @ApiProperty({ example: 'Mutoni' })
+  @ApiProperty({ example: 'Ish' })
   @Column({
     type: 'varchar',
     nullable: false
@@ -39,7 +39,7 @@ export class User {
   })
   phone_number: string;
 
-  @ApiProperty({ example: 'mdenyse15@gmail.com' })
+  @ApiProperty({ example: 'gersh250@gmail.com' })
   @Column({
     type: 'varchar',
     nullable: false
@@ -47,7 +47,7 @@ export class User {
   @IsEmail()
   email: string;
 
-  @ApiProperty({ example: 'Nyagatare' })
+  @ApiProperty({ example: 'Kigali' })
   @Column({
     type: 'varchar',
     nullable: false
@@ -55,7 +55,7 @@ export class User {
   @IsEmail()
   location: string;
 
-  @ApiProperty({ example: 'Female' })
+  @ApiProperty({ example: 'Male' })
   @Column({
     type: 'varchar',
     nullable: false
