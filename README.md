@@ -1,5 +1,17 @@
-# Install all dependencies
-yarn 
+# Getting started
 
-# Run the app
+## Install all dependencies
+```
+yarn
+``` 
+
+## Run the app
+```
 yarn start:dev
+```
+
+## Run tests
+
+```
+yarn test
+```

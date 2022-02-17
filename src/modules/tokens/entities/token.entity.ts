@@ -17,6 +17,7 @@ export class Token {
     type: 'varchar',
     nullable: false
   })
+  
   token: string;
 
   @ApiProperty()
